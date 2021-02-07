@@ -29,8 +29,8 @@ if [[ $VERSION_JSON == "null" ]]; then
 fi
 
 # find the proper java - 8 before 1.13, 11 after
-javas=$(update-alternatives --list java)
-java8=$(echo "$javas" | grep -m1 java-8 || true)
+javas=
+java8="$(which java)"
 # require java8 since that's what is needed for forge at all versions
 #java11=$(echo "$javas" | grep -m1 java-11 || true)
 #version_slug=$(echo $MAINLINE_VERSION | cut -d . -f 2)
