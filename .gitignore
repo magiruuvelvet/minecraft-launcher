@@ -3,3 +3,9 @@ profiles
 versions
 launcher_profiles.json
 *.bak
+mods
+modlist
+
+minecraft-launcher.png
+minecraft-launcher.svg
+minecraft.desktop
